@@ -1,20 +1,20 @@
 #include "main.h"
 
 /**
- * main - check the code.
- *
- * Return: Always 0.
- */
+*_islower-function checks c islower or not
+*
+*the charscters is input
+* Return: 1 for lowercase. 0 for the rest.
+*/
 
-int main(void)
+int _islower(int c)
 {
-int c;
-c = _islower('H');
-_putchar(c + '0');
-c = _islower('o');
-_putchar(c + '0');
-c = _islower(108);
-_putchar(c + '0');
-_putchar('\n');
+if (c >= 'a' && c <= 'z')
+{
+return (1);
+}
+else
+{
 return (0);
+}
 }
