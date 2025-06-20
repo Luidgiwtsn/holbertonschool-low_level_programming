@@ -1,8 +1,9 @@
 #include "main.h"
+#include <unistd.h>
 
 /**
 *
-*print_alphabet_x10 - function print_alphabet _putchar
+*2-print_alphabet_x10 - function print_alphabet _putchar
 *
 *Return: Always 0.
 */
