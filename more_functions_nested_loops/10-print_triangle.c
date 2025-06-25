@@ -1,34 +1,31 @@
 #include "main.h"
 
 /**
-* print_triangle - Entry point
-*
-* @size: variable
-*
-* Return: void
-*/
+ * print_triangle - prints a triangle, followed by a new line
+ * @size: size of the triangle
+ */
 
 void print_triangle(int size)
 {
-int a, b, c, d;
-
 if (size <= 0)
 {
 _putchar('\n');
-}
-else
+} else
 {
-for (a = 1; a <= size; a++)
+  int i, j; /* i affiche les espace - j affiche le #*/
+
+for (i = 1; i <= size; i++)
 {
-d = size - a;
-for (b = 1; b <= d; b++)
+for (j = i; j < size; j++)
 {
 _putchar(' ');
 }
-for (c = 1; c <= a; c++)
+
+for (j = 1; j <= i; j++)
 {
 _putchar('#');
 }
+
 _putchar('\n');
 }
 }
