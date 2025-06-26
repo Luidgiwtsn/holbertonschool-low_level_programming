@@ -3,7 +3,9 @@
 
 /**
 * main - check the code
+* reset_to_98 - check the code
 *
+* @n: variable
 * Return: Always 0.
 */
 
