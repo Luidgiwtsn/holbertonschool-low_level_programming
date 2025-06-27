@@ -2,9 +2,10 @@
 #include "main.h"
 
 /**
-* main - check the code
+*_strlen - returns the length of a string
+* @s:string to evaluate
 *
-* Return: Always 0.
+* Return: the length of the string
 */
 
 int _strlen(char *s)
@@ -12,9 +13,8 @@ int _strlen(char *s)
 {
 int c;
 
-for(c= 0; s[c] != '\0'; c++);
-
-
-
-return(c);
+for (c = 0; s[c] != '\0'; c++)
+{
+}
+return (c);
 }
