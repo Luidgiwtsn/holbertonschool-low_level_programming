@@ -2,10 +2,10 @@
 #include "main.h"
 
 /**
- * main - check the code
- *
- * Return: Always 0.
+ * _puts - functions prints string
+ * @str: The string to reverse
  */
+
 void _puts(char *str)
 {
 	while (*str != '\0')
