@@ -2,9 +2,9 @@
 #include "main.h"
 
 /**
- * _puts - functions prints string
- * @str: The string to reverse
- */
+*_puts - functions prints string
+* @str: The string to reverse
+*/
 
 void _puts(char *str)
 { 
