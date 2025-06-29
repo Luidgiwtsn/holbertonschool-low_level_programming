@@ -2,12 +2,12 @@
 #include <string.h>
 
 /**
- * puts_half - Entry point
- *
- * @str: 'varaibles'
- *
- * Return: Always 0 (Success)
- */
+* puts_half - Entry point
+*
+* @str: 'varaibles'
+*
+* Return: Always 0 (Success)
+*/
 
 void puts_half(char *str)
 {
@@ -16,7 +16,7 @@ int i;
 
 while (str[c] != '\0')
 {
-     c++;
+c++;
 }
 
 if (c % 2 == 0)
