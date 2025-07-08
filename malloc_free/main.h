@@ -44,4 +44,5 @@ void print_diagsums(int *a, int size);
 void _puts_recursion(char *s);
 void _print_rev_recursion(char *s);
 char *create_array(unsigned int size, char c);
+char *_strdup(char *str);
 #endif
