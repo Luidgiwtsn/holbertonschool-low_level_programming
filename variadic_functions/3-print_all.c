@@ -3,7 +3,7 @@
 #include "variadic_functions.h"
 /**
   * print_all - Prints anything
-  * @format: The conversion specifier to prints
+  * @format: The conversion specifier to prints Chaîne de format (c = char, i = int, f = float, s = string)
   *
   * Return: Nothing
   */
